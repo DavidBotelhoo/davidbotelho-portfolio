@@ -5,6 +5,14 @@ import { motion } from "framer-motion";
 import { Github, ExternalLink, Folder } from "lucide-react";
 import { SectionLabel } from "../ui/SectionLabel";
 
+// Links por projeto (na mesma ordem dos itens nos arquivos de tradução)
+const projectLinks: Array<{ repo: string; demo?: string }> = [
+  { repo: "https://github.com/DavidBotelhoo/teste-tecnico-pedidos/tree/develop" },
+  { repo: "https://github.com/DavidBotelhoo/markov-pac-man", demo: "https://markov-pac-man.vercel.app" },
+  { repo: "https://github.com/DavidBotelhoo/grafica-dd" },
+  { repo: "https://github.com/DavidBotelhoo/hospital-management" },
+];
+
 export function Projects() {
   const t = useTranslations("projects");
   const items = t.raw("items") as Array<{
@@ -45,18 +53,28 @@ export function Projects() {
                     <Folder className="h-5 w-5 text-brand-300" />
                   </span>
                   <div className="flex items-center gap-1">
-                    <button
+                    <a
+                      href={projectLinks[i]?.repo}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       aria-label={t("viewCode")}
+                      title={t("viewCode")}
                       className="rounded-lg border border-brand-900/40 bg-brand-950/40 p-2 text-brand-400 transition-all hover:border-brand-600/60 hover:bg-brand-900/30 hover:text-brand-300"
                     >
                       <Github className="h-4 w-4" />
-                    </button>
-                    <button
-                      aria-label={t("viewDemo")}
-                      className="rounded-lg border border-brand-900/40 bg-brand-950/40 p-2 text-brand-400 transition-all hover:border-brand-600/60 hover:bg-brand-900/30 hover:text-brand-300"
-                    >
-                      <ExternalLink className="h-4 w-4" />
-                    </button>
+                    </a>
+                    {projectLinks[i]?.demo && (
+                      <a
+                        href={projectLinks[i]?.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={t("viewDemo")}
+                        title={t("viewDemo")}
+                        className="rounded-lg border border-brand-900/40 bg-brand-950/40 p-2 text-brand-400 transition-all hover:border-brand-600/60 hover:bg-brand-900/30 hover:text-brand-300"
+                      >
+                        <ExternalLink className="h-4 w-4" />
+                      </a>
+                    )}
                   </div>
                 </div>
 

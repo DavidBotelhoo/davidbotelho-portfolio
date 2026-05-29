@@ -131,24 +131,24 @@
     "comingSoon": "Em breve",
     "items": [
       {
-        "title": "Plataforma SaaS Multi-tenant",
-        "description": "Sistema completo com autenticação, dashboards customizáveis e billing integrado. Construído com Next.js, Prisma e PostgreSQL.",
-        "tags": ["Next.js", "TypeScript", "Prisma", "PostgreSQL"]
+        "title": "Gestão de Pedidos",
+        "description": "Módulo de gestão de pedidos com ciclo de vida modelado como uma máquina de estados. API em AdonisJS v6 + Lucid, front-end em Next.js, controle de concorrência otimista e testes automatizados com Japa.",
+        "tags": ["Next.js", "AdonisJS", "PostgreSQL", "TypeScript", "Docker"]
       },
       {
-        "title": "API REST de E-commerce",
-        "description": "API robusta com gerenciamento de produtos, pedidos, pagamentos e autenticação JWT. Express + PostgreSQL.",
-        "tags": ["Node.js", "Express", "JWT", "PostgreSQL"]
+        "title": "Markov Pac-Man",
+        "description": "Recriação do clássico Pac-Man em que o movimento dos fantasmas é modelado por Cadeias de Markov. Estética arcade 8-bit, controles por teclado e toque, totalmente responsivo.",
+        "tags": ["Next.js", "TypeScript", "Tailwind", "React"]
       },
       {
-        "title": "Dashboard de Analytics",
-        "description": "Painel em tempo real com gráficos interativos, filtros avançados e exportação de relatórios.",
-        "tags": ["React", "TypeScript", "Recharts", "Tailwind"]
+        "title": "Gráfica D&D — Landing Page",
+        "description": "Landing page institucional da Gráfica D&D, com a identidade visual da marca, galeria de serviços e seção de contato. Construída com Next.js 14, Tailwind CSS e TypeScript.",
+        "tags": ["Next.js", "TypeScript", "Tailwind"]
       },
       {
-        "title": "Sistema de Gestão Interna",
-        "description": "ERP customizado para gestão de funcionários, projetos e financeiro, com permissões granulares.",
-        "tags": ["Next.js", "AdonisJS", "MySQL", "Docker"]
+        "title": "API de Gestão Hospitalar",
+        "description": "API REST para gestão hospitalar com cadastro de médicos, pacientes, especialidades e agendamento de consultas. Autenticação JWT, Spring Security e documentação OpenAPI.",
+        "tags": ["Java", "Spring Boot", "PostgreSQL", "JWT"]
       }
     ]
   },

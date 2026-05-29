@@ -131,24 +131,24 @@
     "comingSoon": "Coming soon",
     "items": [
       {
-        "title": "Multi-tenant SaaS Platform",
-        "description": "Complete system with authentication, customizable dashboards and integrated billing. Built with Next.js, Prisma and PostgreSQL.",
-        "tags": ["Next.js", "TypeScript", "Prisma", "PostgreSQL"]
+        "title": "Order Management",
+        "description": "Order management module with a lifecycle modeled as a state machine. AdonisJS v6 + Lucid API, Next.js front-end, optimistic concurrency control and automated tests with Japa.",
+        "tags": ["Next.js", "AdonisJS", "PostgreSQL", "TypeScript", "Docker"]
       },
       {
-        "title": "E-commerce REST API",
-        "description": "Robust API with product management, orders, payments and JWT authentication. Express + PostgreSQL.",
-        "tags": ["Node.js", "Express", "JWT", "PostgreSQL"]
+        "title": "Markov Pac-Man",
+        "description": "A recreation of the classic Pac-Man where ghost movement is modeled with Markov Chains. Retro 8-bit arcade aesthetic, keyboard and touch controls, fully responsive.",
+        "tags": ["Next.js", "TypeScript", "Tailwind", "React"]
       },
       {
-        "title": "Analytics Dashboard",
-        "description": "Real-time panel with interactive charts, advanced filters and report exports.",
-        "tags": ["React", "TypeScript", "Recharts", "Tailwind"]
+        "title": "Gráfica D&D — Landing Page",
+        "description": "Institutional landing page for Gráfica D&D, featuring the brand's visual identity, services gallery and contact section. Built with Next.js 14, Tailwind CSS and TypeScript.",
+        "tags": ["Next.js", "TypeScript", "Tailwind"]
       },
       {
-        "title": "Internal Management System",
-        "description": "Custom ERP for employee, project and financial management, with granular permissions.",
-        "tags": ["Next.js", "AdonisJS", "MySQL", "Docker"]
+        "title": "Hospital Management API",
+        "description": "REST API for hospital management with doctors, patients, specialties and appointment scheduling. JWT authentication, Spring Security and OpenAPI documentation.",
+        "tags": ["Java", "Spring Boot", "PostgreSQL", "JWT"]
       }
     ]
   },
