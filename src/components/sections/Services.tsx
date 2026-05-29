@@ -52,7 +52,7 @@ export function Services() {
                   <h3 className="text-lg font-semibold text-foreground">
                     {service.title}
                   </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-foreground/70">
+                  <p className="mt-2 text-sm leading-relaxed text-foreground/70 text-justify">
                     {service.description}
                   </p>
                   <div className="mt-4 flex items-center gap-1 text-xs text-brand-400 opacity-0 transition-all group-hover:translate-x-1 group-hover:opacity-100">

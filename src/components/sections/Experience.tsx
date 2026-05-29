@@ -99,7 +99,7 @@ function TimelineItem({
               <Briefcase className="h-4 w-4" />
               <span className="text-sm font-medium">{item.company}</span>
             </div>
-            <p className="mt-4 text-sm leading-relaxed text-foreground/70">
+            <p className="mt-4 text-sm leading-relaxed text-foreground/70 text-justify">
               {item.description}
             </p>
             <div

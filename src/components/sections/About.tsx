@@ -107,7 +107,7 @@ export function About() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="lg:col-span-3"
           >
-            <div className="space-y-4 text-base leading-relaxed text-foreground/80">
+            <div className="space-y-4 text-base leading-relaxed text-foreground/80 text-justify">
               <p>{t("bio1")}</p>
               <p>{t("bio2")}</p>
             </div>

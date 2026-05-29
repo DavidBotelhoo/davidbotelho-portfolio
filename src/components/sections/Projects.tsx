@@ -84,7 +84,7 @@ export function Projects() {
                 </h3>
 
                 {/* Description */}
-                <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-foreground/70">
+                <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-foreground/70 text-justify">
                   {project.description}
                 </p>
 

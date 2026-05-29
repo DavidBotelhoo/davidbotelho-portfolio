@@ -82,7 +82,7 @@ export function Education() {
                     {item.institution}
                   </p>
                   {item.description && (
-                    <p className="mt-3 text-sm leading-relaxed text-foreground/70">
+                    <p className="mt-3 text-sm leading-relaxed text-foreground/70 text-justify">
                       {item.description}
                     </p>
                   )}
