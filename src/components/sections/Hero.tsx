@@ -62,10 +62,10 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="mt-6 flex items-center gap-2 font-mono text-sm text-brand-400"
+            className="mt-6 flex flex-wrap items-center gap-2 font-mono text-sm text-brand-400"
           >
             <span>{t("roleTag")}</span>
-            <span className="h-px w-12 bg-gradient-to-r from-brand-500 to-transparent" />
+            <span className="hidden h-px w-12 bg-gradient-to-r from-brand-500 to-transparent sm:block" />
             <span className="text-foreground/80">{t("tagline")}</span>
           </motion.div>
 

@@ -32,7 +32,7 @@ export function Contact() {
   )}`;
 
   return (
-    <section id="contact" className="relative py-24 sm:py-32">
+    <section id="contact" className="relative overflow-hidden py-24 sm:py-32">
       <div className="absolute inset-0 grid-bg opacity-30" />
       <div className="absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-brand-600/10 blur-3xl" />
 

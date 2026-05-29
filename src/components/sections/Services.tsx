@@ -21,7 +21,7 @@ export function Services() {
   )}`;
 
   return (
-    <section id="services" className="relative py-24 sm:py-32">
+    <section id="services" className="relative overflow-hidden py-24 sm:py-32">
       <div className="absolute right-1/4 top-1/2 h-96 w-96 -translate-y-1/2 rounded-full bg-cyan-600/10 blur-3xl" />
 
       <div className="container-section relative">

@@ -11,7 +11,7 @@ export function Skills() {
   const t = useTranslations("skills");
 
   return (
-    <section id="skills" className="relative py-24 sm:py-32">
+    <section id="skills" className="relative overflow-hidden py-24 sm:py-32">
       <div className="absolute inset-0 grid-bg opacity-30" />
       <div className="absolute left-1/4 top-1/2 h-96 w-96 -translate-y-1/2 rounded-full bg-brand-700/10 blur-3xl" />
 

@@ -21,6 +21,15 @@
     scroll-behavior: smooth;
   }
 
+  /* Prevent any decorative/absolute element from causing horizontal scroll.
+     `clip` (instead of `hidden`) does not create a scroll container, so it
+     keeps `position: sticky` working. */
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
   body {
     @apply bg-background text-foreground antialiased;
     font-feature-settings: "rlig" 1, "calt" 1;
