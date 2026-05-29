@@ -47,7 +47,7 @@ export const skills: Skill[] = [
 ];
 
 export const social = {
-  email: "davi.fbotelho@gmail.com",
+  email: "davidbotelho.dev@gmail.com",
   whatsapp: "5593991026469",
   whatsappDisplay: "93 99102-6469",
   instagram: "davidbotelho__",
