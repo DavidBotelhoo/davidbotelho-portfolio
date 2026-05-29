@@ -88,17 +88,15 @@ export function Hero() {
               href={social.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative flex items-center gap-3 overflow-hidden rounded-xl border border-brand-700/60 bg-gradient-to-br from-brand-900/40 to-brand-950/60 px-5 py-3 transition-all hover:border-brand-500 hover:shadow-lg hover:shadow-brand-900/50"
+              className="group relative flex items-center gap-2 overflow-hidden rounded-xl border border-brand-700/60 bg-gradient-to-br from-brand-900/40 to-brand-950/60 px-5 py-3 text-sm font-medium text-foreground/80 transition-all hover:border-brand-500 hover:text-foreground hover:shadow-lg hover:shadow-brand-900/50"
             >
-              <Github className="h-5 w-5 text-brand-300 transition-transform group-hover:scale-110" />
-              <div className="flex flex-col leading-tight">
-                <span className="text-xs text-muted-foreground">
-                  {t("github")}
-                </span>
-                <span className="text-sm font-semibold text-foreground">
+              <Github className="h-4 w-4 text-brand-300 transition-transform group-hover:scale-110" />
+              <span>
+                <span className="text-muted-foreground">{t("github")} </span>
+                <span className="font-semibold text-foreground">
                   {t("githubBrand")}
                 </span>
-              </div>
+              </span>
               <div className="absolute inset-0 -z-10 bg-gradient-to-r from-brand-600/0 via-brand-500/10 to-brand-600/0 opacity-0 transition-opacity group-hover:opacity-100" />
             </a>
 
