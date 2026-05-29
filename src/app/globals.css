@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 4%;
+    --foreground: 213 31% 91%;
+    --muted: 217 33% 12%;
+    --muted-foreground: 215 20% 65%;
+    --border: 217 33% 17%;
+    --accent: 217 91% 60%;
+    --accent-foreground: 213 31% 91%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  ::selection {
+    @apply bg-brand-500/30 text-foreground;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-brand-900 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-brand-700;
+  }
+}
+
+@layer components {
+  .container-section {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-brand-400 via-brand-300 to-brand-500 bg-clip-text text-transparent;
+    background-size: 200% auto;
+    animation: gradientX 8s linear infinite;
+  }
+
+  .text-gradient-blue {
+    @apply bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent;
+  }
+
+  .glass {
+    @apply border border-white/5 bg-white/[0.02] backdrop-blur-md;
+  }
+
+  .glow-blue {
+    box-shadow: 0 0 60px -10px rgba(59, 130, 246, 0.5);
+  }
+
+  .grid-bg {
+    background-image: linear-gradient(
+        to right,
+        rgba(59, 130, 246, 0.05) 1px,
+        transparent 1px
+      ),
+      linear-gradient(to bottom, rgba(59, 130, 246, 0.05) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  .code-block {
+    @apply rounded-xl border border-brand-900/40 bg-[#0a0f1e]/90 backdrop-blur-sm;
+  }
+}
+
+/* Smooth scroll offset for fixed header */
+section[id] {
+  scroll-margin-top: 80px;
+}

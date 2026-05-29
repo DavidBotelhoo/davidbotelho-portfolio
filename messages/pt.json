@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "title": "David Botelho — Desenvolvedor Fullstack",
+    "description": "Portfólio de David Botelho — Desenvolvedor Fullstack especializado em React, Next.js, Node.js e arquiteturas escaláveis."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Sobre",
+    "experience": "Experiência",
+    "skills": "Stack",
+    "education": "Formação",
+    "projects": "Projetos",
+    "services": "Serviços",
+    "contact": "Contato",
+    "resume": "Currículo",
+    "language": "Idioma"
+  },
+  "hero": {
+    "kernel": "SYSTEM.KERNEL :: v2026.5 ONLINE",
+    "greeting": "Olá, eu sou",
+    "name": "David Botelho",
+    "roleTag": "<Fullstack />",
+    "tagline": "Engenharia Além das Fronteiras.",
+    "description": "Especializado em desenvolvimento web full stack, APIs escaláveis e experiências modernas com React, Next.js e Node.js.",
+    "github": "Confira o",
+    "githubBrand": "GitHub",
+    "loadedModules": "MODULOS_CARREGADOS:",
+    "codeFile": "portfolio.tsx",
+    "codeComment": "// Bem-vindo ao meu workspace",
+    "viewProfile": "Ver Perfil",
+    "viewProjects": "Ver Projetos",
+    "scrollHint": "Role para descobrir"
+  },
+  "about": {
+    "label": "// SOBRE_MIM",
+    "title": "Sobre Mim",
+    "subtitle": "Transformando ideias em soluções digitais.",
+    "bio1": "Desenvolvedor Full Stack com experiência profissional em desenvolvimento de aplicações web utilizando React, Next.js e Node.js (AdonisJS e Express). Especialista em implementação de funcionalidades ponta-a-ponta — API, interface e banco de dados — utilizando JavaScript e TypeScript.",
+    "bio2": "Tenho conhecimento sólido em integração com SQL, Docker e metodologias ágeis, com foco em entrega de soluções escaláveis e de alta qualidade.",
+    "stats": {
+      "experience": "Anos de Experiência",
+      "projects": "Projetos Entregues",
+      "languages": "Idiomas",
+      "stack": "Tecnologias"
+    },
+    "location": "La Rioja, Argentina",
+    "available": "Disponível para novos projetos",
+    "languages": {
+      "title": "Idiomas",
+      "portuguese": "Português",
+      "portugueseLevel": "Nativo",
+      "spanish": "Espanhol",
+      "spanishLevel": "Fluente",
+      "english": "Inglês",
+      "englishLevel": "Intermediário"
+    }
+  },
+  "experience": {
+    "label": "// TRAJETORIA",
+    "title": "Experiência Profissional",
+    "subtitle": "Linha do tempo da minha jornada em desenvolvimento.",
+    "present": "Presente",
+    "items": [
+      {
+        "company": "Corelab",
+        "role": "Fullstack Developer",
+        "period": "set/2025 — Presente",
+        "description": "Desenvolvimento de aplicações web utilizando React e Next.js no front-end. Construção e manutenção de APIs com Node.js (AdonisJS e Express). Implementação de funcionalidades ponta-a-ponta com JavaScript e TypeScript, seguindo boas práticas de arquitetura e performance.",
+        "tags": ["React", "Next.js", "Node.js", "AdonisJS", "Express", "TypeScript"]
+      },
+      {
+        "company": "Gráfica D&D",
+        "role": "Auxiliar de Informática",
+        "period": "jun/2019 — out/2021",
+        "description": "Suporte técnico à rede local e manutenção de computadores. Automatização de planilhas e melhoria de processos internos. Backups e organização de arquivos de produção.",
+        "tags": ["Suporte", "Redes", "Automação"]
+      }
+    ]
+  },
+  "skills": {
+    "label": "// STACK_TECNOLOGICA",
+    "title": "Tecnologias & Ferramentas",
+    "subtitle": "As tecnologias que utilizo para construir produtos digitais.",
+    "categories": {
+      "languages": "Linguagens",
+      "frontend": "Front-end",
+      "backend": "Back-end",
+      "database": "Banco de Dados",
+      "tools": "Ferramentas"
+    }
+  },
+  "education": {
+    "label": "// FORMACAO",
+    "title": "Formação Acadêmica",
+    "subtitle": "Educação contínua e certificações.",
+    "ongoing": "Em curso",
+    "completed": "Concluído",
+    "items": [
+      {
+        "title": "Bacharelado em Engenharia em Sistemas de Informação",
+        "institution": "Universidad Nacional de La Rioja (UNLaR)",
+        "period": "fev/2025 — 2030",
+        "status": "ongoing",
+        "level": "Graduação"
+      },
+      {
+        "title": "Diplomatura em Desenvolvimento Fullstack",
+        "institution": "Em Equipes de Trabalho",
+        "period": "2024",
+        "status": "completed",
+        "level": "Técnico",
+        "description": "Desenvolvimento Fullstack com JavaScript, TypeScript, Next.js, React, Node.js, Express e PostgreSQL."
+      }
+    ],
+    "certifications": {
+      "title": "Certificações",
+      "items": [
+        { "name": "Spring Boot: Produtividade no Desenvolvimento Java", "issuer": "Alura", "year": "2025" },
+        { "name": "Java Web com Spring Boot", "issuer": "Alura", "year": "2025" },
+        { "name": "Formação Java Orientado a Objetos", "issuer": "Alura", "year": "2024" },
+        { "name": "HTML e CSS Responsivo", "issuer": "Alura", "year": "2024" }
+      ]
+    }
+  },
+  "projects": {
+    "label": "// PROJETOS_RECENTES",
+    "title": "Projetos em Destaque",
+    "subtitle": "Uma seleção de projetos que mostram minha abordagem em desenvolvimento.",
+    "viewCode": "Ver Código",
+    "viewDemo": "Ver Demo",
+    "comingSoon": "Em breve",
+    "items": [
+      {
+        "title": "Plataforma SaaS Multi-tenant",
+        "description": "Sistema completo com autenticação, dashboards customizáveis e billing integrado. Construído com Next.js, Prisma e PostgreSQL.",
+        "tags": ["Next.js", "TypeScript", "Prisma", "PostgreSQL"]
+      },
+      {
+        "title": "API REST de E-commerce",
+        "description": "API robusta com gerenciamento de produtos, pedidos, pagamentos e autenticação JWT. Express + PostgreSQL.",
+        "tags": ["Node.js", "Express", "JWT", "PostgreSQL"]
+      },
+      {
+        "title": "Dashboard de Analytics",
+        "description": "Painel em tempo real com gráficos interativos, filtros avançados e exportação de relatórios.",
+        "tags": ["React", "TypeScript", "Recharts", "Tailwind"]
+      },
+      {
+        "title": "Sistema de Gestão Interna",
+        "description": "ERP customizado para gestão de funcionários, projetos e financeiro, com permissões granulares.",
+        "tags": ["Next.js", "AdonisJS", "MySQL", "Docker"]
+      }
+    ]
+  },
+  "services": {
+    "label": "// SERVICOS",
+    "title": "O que eu posso fazer por você",
+    "subtitle": "Soluções digitais completas para o seu negócio.",
+    "cta": "Solicitar Orçamento",
+    "items": [
+      {
+        "title": "Sites Profissionais",
+        "description": "Landing pages, sites institucionais e e-commerce com design moderno e foco em conversão."
+      },
+      {
+        "title": "Sistemas Personalizados",
+        "description": "Dashboards, ERPs e automações sob medida para resolver as dores reais do seu negócio."
+      },
+      {
+        "title": "Hospedagem & Deploy",
+        "description": "Setup completo de domínio, SSL, CI/CD e otimização de performance em provedores modernos."
+      },
+      {
+        "title": "Suporte & Manutenção",
+        "description": "Acompanhamento contínuo, evolução e correções rápidas para manter seu produto saudável."
+      }
+    ]
+  },
+  "contact": {
+    "label": "// VAMOS_CONVERSAR",
+    "title": "Vamos trabalhar juntos?",
+    "subtitle": "Estou pronto para tirar seu projeto do papel.",
+    "available": "Aceitando novos projetos",
+    "channels": {
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "emailValue": "davi.fbotelho@gmail.com",
+    "whatsappValue": "+55 93 99102-6469",
+    "whatsappMessage": "Olá David! Gostaria de conversar sobre um projeto.",
+    "copy": "Copiar",
+    "copied": "Copiado!"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "builtWith": "Construído com Next.js, TypeScript e Tailwind CSS.",
+    "backToTop": "Voltar ao topo"
+  }
+}

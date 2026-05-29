@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "title": "David Botelho — Desarrollador Fullstack",
+    "description": "Portfolio de David Botelho — Desarrollador Fullstack especializado en React, Next.js, Node.js y arquitecturas escalables."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "skills": "Stack",
+    "education": "Formación",
+    "projects": "Proyectos",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "resume": "Currículum",
+    "language": "Idioma"
+  },
+  "hero": {
+    "kernel": "SYSTEM.KERNEL :: v2026.5 ONLINE",
+    "greeting": "Hola, soy",
+    "name": "David Botelho",
+    "roleTag": "<Fullstack />",
+    "tagline": "Ingeniería Más Allá de las Fronteras.",
+    "description": "Especializado en desarrollo web full stack, APIs escalables y experiencias modernas con React, Next.js y Node.js.",
+    "github": "Visita mi",
+    "githubBrand": "GitHub",
+    "loadedModules": "MODULOS_CARGADOS:",
+    "codeFile": "portfolio.tsx",
+    "codeComment": "// Bienvenido a mi workspace",
+    "viewProfile": "Ver Perfil",
+    "viewProjects": "Ver Proyectos",
+    "scrollHint": "Desliza para descubrir"
+  },
+  "about": {
+    "label": "// SOBRE_MI",
+    "title": "Sobre Mí",
+    "subtitle": "Transformando ideas en soluciones digitales.",
+    "bio1": "Desarrollador Full Stack con experiencia profesional en desarrollo de aplicaciones web utilizando React, Next.js y Node.js (AdonisJS y Express). Especialista en implementación de funcionalidades end-to-end — API, interfaz y base de datos — utilizando JavaScript y TypeScript.",
+    "bio2": "Tengo conocimientos sólidos en integración con SQL, Docker y metodologías ágiles, con foco en la entrega de soluciones escalables y de alta calidad.",
+    "stats": {
+      "experience": "Años de Experiencia",
+      "projects": "Proyectos Entregados",
+      "languages": "Idiomas",
+      "stack": "Tecnologías"
+    },
+    "location": "La Rioja, Argentina",
+    "available": "Disponible para nuevos proyectos",
+    "languages": {
+      "title": "Idiomas",
+      "portuguese": "Portugués",
+      "portugueseLevel": "Nativo",
+      "spanish": "Español",
+      "spanishLevel": "Fluido",
+      "english": "Inglés",
+      "englishLevel": "Intermedio"
+    }
+  },
+  "experience": {
+    "label": "// TRAYECTORIA",
+    "title": "Experiencia Profesional",
+    "subtitle": "Línea de tiempo de mi recorrido en desarrollo.",
+    "present": "Actualidad",
+    "items": [
+      {
+        "company": "Corelab",
+        "role": "Desarrollador Fullstack",
+        "period": "sep/2025 — Actualidad",
+        "description": "Desarrollo de aplicaciones web utilizando React y Next.js en el front-end. Construcción y mantenimiento de APIs con Node.js (AdonisJS y Express). Implementación de funcionalidades end-to-end con JavaScript y TypeScript, siguiendo buenas prácticas de arquitectura y rendimiento.",
+        "tags": ["React", "Next.js", "Node.js", "AdonisJS", "Express", "TypeScript"]
+      },
+      {
+        "company": "Gráfica D&D",
+        "role": "Auxiliar de Informática",
+        "period": "jun/2019 — oct/2021",
+        "description": "Soporte técnico a la red local y mantenimiento de computadoras. Automatización de hojas de cálculo y mejora de procesos internos. Backups y organización de archivos de producción.",
+        "tags": ["Soporte", "Redes", "Automatización"]
+      }
+    ]
+  },
+  "skills": {
+    "label": "// STACK_TECNOLOGICO",
+    "title": "Tecnologías & Herramientas",
+    "subtitle": "Las tecnologías que utilizo para construir productos digitales.",
+    "categories": {
+      "languages": "Lenguajes",
+      "frontend": "Front-end",
+      "backend": "Back-end",
+      "database": "Base de Datos",
+      "tools": "Herramientas"
+    }
+  },
+  "education": {
+    "label": "// FORMACION",
+    "title": "Formación Académica",
+    "subtitle": "Educación continua y certificaciones.",
+    "ongoing": "En curso",
+    "completed": "Completado",
+    "items": [
+      {
+        "title": "Licenciatura en Ingeniería en Sistemas de Información",
+        "institution": "Universidad Nacional de La Rioja (UNLaR)",
+        "period": "feb/2025 — 2030",
+        "status": "ongoing",
+        "level": "Universitario"
+      },
+      {
+        "title": "Diplomatura en Desarrollo Fullstack",
+        "institution": "En Equipos de Trabajo",
+        "period": "2024",
+        "status": "completed",
+        "level": "Diplomatura",
+        "description": "Desarrollo Fullstack con JavaScript, TypeScript, Next.js, React, Node.js, Express y PostgreSQL."
+      }
+    ],
+    "certifications": {
+      "title": "Certificaciones",
+      "items": [
+        { "name": "Spring Boot: Productividad en el Desarrollo Java", "issuer": "Alura", "year": "2025" },
+        { "name": "Java Web con Spring Boot", "issuer": "Alura", "year": "2025" },
+        { "name": "Formación Java Orientado a Objetos", "issuer": "Alura", "year": "2024" },
+        { "name": "HTML y CSS Responsivo", "issuer": "Alura", "year": "2024" }
+      ]
+    }
+  },
+  "projects": {
+    "label": "// PROYECTOS_RECIENTES",
+    "title": "Proyectos Destacados",
+    "subtitle": "Una selección de proyectos que muestran mi enfoque en desarrollo.",
+    "viewCode": "Ver Código",
+    "viewDemo": "Ver Demo",
+    "comingSoon": "Próximamente",
+    "items": [
+      {
+        "title": "Plataforma SaaS Multi-tenant",
+        "description": "Sistema completo con autenticación, dashboards personalizables y billing integrado. Construido con Next.js, Prisma y PostgreSQL.",
+        "tags": ["Next.js", "TypeScript", "Prisma", "PostgreSQL"]
+      },
+      {
+        "title": "API REST de E-commerce",
+        "description": "API robusta con gestión de productos, pedidos, pagos y autenticación JWT. Express + PostgreSQL.",
+        "tags": ["Node.js", "Express", "JWT", "PostgreSQL"]
+      },
+      {
+        "title": "Dashboard de Analytics",
+        "description": "Panel en tiempo real con gráficos interactivos, filtros avanzados y exportación de informes.",
+        "tags": ["React", "TypeScript", "Recharts", "Tailwind"]
+      },
+      {
+        "title": "Sistema de Gestión Interna",
+        "description": "ERP personalizado para gestión de empleados, proyectos y finanzas, con permisos granulares.",
+        "tags": ["Next.js", "AdonisJS", "MySQL", "Docker"]
+      }
+    ]
+  },
+  "services": {
+    "label": "// SERVICIOS",
+    "title": "Lo que puedo hacer por ti",
+    "subtitle": "Soluciones digitales completas para tu negocio.",
+    "cta": "Solicitar Presupuesto",
+    "items": [
+      {
+        "title": "Sitios Profesionales",
+        "description": "Landing pages, sitios institucionales y e-commerce con diseño moderno y enfoque en conversión."
+      },
+      {
+        "title": "Sistemas Personalizados",
+        "description": "Dashboards, ERPs y automatizaciones a medida para resolver los problemas reales de tu negocio."
+      },
+      {
+        "title": "Hosting & Deploy",
+        "description": "Setup completo de dominio, SSL, CI/CD y optimización de rendimiento en proveedores modernos."
+      },
+      {
+        "title": "Soporte & Mantenimiento",
+        "description": "Acompañamiento continuo, evolución y correcciones rápidas para mantener tu producto saludable."
+      }
+    ]
+  },
+  "contact": {
+    "label": "// CONVERSEMOS",
+    "title": "¿Trabajamos juntos?",
+    "subtitle": "Estoy listo para llevar tu proyecto a la realidad.",
+    "available": "Aceptando nuevos proyectos",
+    "channels": {
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "emailValue": "davi.fbotelho@gmail.com",
+    "whatsappValue": "+55 93 99102-6469",
+    "whatsappMessage": "¡Hola David! Me gustaría conversar sobre un proyecto.",
+    "copy": "Copiar",
+    "copied": "¡Copiado!"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "builtWith": "Construido con Next.js, TypeScript y Tailwind CSS.",
+    "backToTop": "Volver arriba"
+  }
+}
